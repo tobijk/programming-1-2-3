@@ -33,11 +33,11 @@ About Text Adventures
 ===============================================================================
 
 Some of the earliest computer games were [Text Adventures][1]. During a time
-when computers didn't yet have fancy graphics capabilities, Text Adventures were
+when computers didn't yet have fancy graphics capabilities, text adventures were
 a simple way of building immersive, interactive experiences through written
 story telling.
 
-In a way, Text Adventures are like interactive books. The player is given a
+In a way, text adventures are like interactive books. The player is given a
 description of their surroundings, such as the following:
 
 > *You find yourself in a dark, gloomy room without windows. There are two
@@ -55,7 +55,7 @@ The player is then given choices on how to proceed. They can
 
 *How* the player interacts with the game depends on how sophisticated the game
 engine is. In simple games, the player may simply be given a list of options
-to choose from. More advanced Text Adventure game engines may provide a command
+to choose from. More advanced text adventure game engines may provide a command
 prompt where the player can enter actions such as
 
 * <qq>walk south</qq>
@@ -71,7 +71,7 @@ Initial Research
 ===============================================================================
 
 Before we start programming, you should make yourself familiar with the Text
-Adventure game genre. One of the most popular text adventures games of all
+Adventure game genre. One of the most popular text adventure games of all
 times is [Zork][2].
 
 Please perform the following tasks:
@@ -95,9 +95,10 @@ working C compiler on your system, find out how to install one.
 
 You will also need a text editor. As you advance in your programming career, you
 may start to prefer smart code editors and integrated development environments
-(IDE). For the beginning a simple text editor should be enough. Please make sure
-that the text editor <qq>gedit</qq> is installed on your system and that you can
-launch it. If it is missing or you cannot launch it, find out how to do that.
+(IDE). For the beginning, a simple text editor should be enough. Please make
+sure that the text editor <qq>gedit</qq> is installed on your system and that
+you can launch it. If it is missing or you cannot launch it, find out how to do
+that.
 
 Start gedit, then paste the following into the editor window:
 
@@ -118,8 +119,8 @@ look like this:
 gcc -o hello hello.c
 ```
 
-If everything goes according to plan, you should find a file name `hello` in the
-same directory.
+If everything goes according to plan, you should find a file named `hello` in
+the same directory.
 
 Oh, you don't know where to insert this command!
 
@@ -133,14 +134,14 @@ as described above.
 Summary and Outlook
 ===============================================================================
 
-In this tutorial you learned about the Text Adventure game genre. You
+In this tutorial you learned about the text adventure game genre. You
 familiarized yourself with the game <qq>Zork</qq>. And you installed all the
 tools required to do some programming in C. You even compiled your first
 program!
 
 In the following parts of this tutorial series, we will slowly build up our
 programming skills to the point where we will be able to program a full-blown
-Text Adventure!
+text adventure!
 
 
 [1]: https://en.wikipedia.org/wiki/Interactive_fiction
