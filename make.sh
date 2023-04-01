@@ -46,7 +46,8 @@ do_build() {
             rm -fr tex
 
             mkdir md
-            cp "${basedir}/${mdfile}" md/
+            sed '/^--------------------/,/^--------------------/d' \
+                "${basedir}/${mdfile}" > "md/${fname}"
 
             rm -f tmp.xml
         )
